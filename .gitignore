@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+__MACOSX/
+
+# Generated build artifacts (reproducible by running the scripts)
+results/*.csv
+figures/*.png
+!results/.gitkeep
+!figures/.gitkeep
